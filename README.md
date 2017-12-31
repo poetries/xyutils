@@ -15,8 +15,6 @@ usage
 $ npm install --save-dev xyutils
 ```
 
-**使用**
-
 - 直接下载`min`目录下的[xyutils.min.js](https://github.com/poetries/xyutils/blob/master/min/xyutils.min.js)使用，支持`UMD`通用模块规范 
 
 ``` html
@@ -43,6 +41,7 @@ const OS = getOS()
 ```
 
 ``` javascript
+// es6
 const {getOS} from 'xyutils'
 const OS = getOS()
 ```
