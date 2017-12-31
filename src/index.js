@@ -34,6 +34,7 @@ const randomNum = require('./random/randomNum')
 const isEmail = require('./regexp/isEmail')
 const isIdCard = require('./regexp/isIdCard')
 const isPhoneNum = require('./regexp/isPhoneNum')
+const isTel = require('./regexp/isTel')
 const isUrl = require('./regexp/isUrl')
 
 const digitUppercase = require('./string/digitUppercase')
