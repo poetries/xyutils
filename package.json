@@ -1,7 +1,7 @@
 {
   "name": "xyutils",
-  "version": "1.0.0",
-  "description": "前端业务代码工具库",
+  "version": "1.0.1",
+  "description": "font end utils",
   "main": "min/xyutils.min.js",
   "scripts": {
     "build": "node script/build.js",

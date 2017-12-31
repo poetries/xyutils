@@ -1,6 +1,5 @@
 xyutils
 ---
-
 [![npm](https://img.shields.io/npm/v/xyutils.svg)](https://www.npmjs.com/package/xyutils) 
 ![Build Status](https://travis-ci.org/poetries/xyutils.svg?branch=master) 
 [![Coverage](https://coveralls.io/repos/github/poetries/xyutils/badge.svg?branch=master) 
