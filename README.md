@@ -100,6 +100,7 @@ API文档
 - `isEmail` 判断是否为邮箱地址 
 - `isIdCard` 判断是否为身份证号
 - `isPhoneNum` 判断是否为手机号  
+- `isTel` 验证是否为有效的座机电话号码  
 - `isUrl` 判断是否为`URL`地址
 
 **String**
