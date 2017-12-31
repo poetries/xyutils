@@ -1,13 +1,12 @@
 xyutils
 ---
 
-> 业务开发过程中，会经常用到`日期格式化`、`url参数转对象`、`浏览器类型判断`、`节流函数`等常用函数
-
 [![npm](https://img.shields.io/npm/v/xyutils.svg)](https://www.npmjs.com/package/xyutils) 
 ![Build Status](https://travis-ci.org/poetries/xyutils.svg?branch=master) 
 [![Coverage](https://coveralls.io/repos/github/poetries/xyutils/badge.svg?branch=master) 
 ![LICENSE MIT](https://img.shields.io/npm/l/xyutils.svg)](https://www.npmjs.com/package/xyutils) 
 
+> 业务开发过程中，会经常用到`日期格式化`、`url参数转对象`、`浏览器类型判断`、`节流函数`等常用函数
 
 usage
 ---
