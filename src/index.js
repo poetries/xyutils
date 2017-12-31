@@ -2,6 +2,9 @@
  * @desc webpack打包入口文件
  */
 const arrayEqual = require('./array/arrayEqual')
+const arrayContains = require('./array/arrayContains')
+const arrayDescendeSort = require('./array/arrayDescendeSort')
+const arrayIncreaseSort = require('./array/arrayIncreaseSort')
 
 const addClass = require('./class/addClass')
 const hasClass = require('./class/hasClass')
@@ -13,6 +16,13 @@ const setCookie = require('./cookie/setCookie')
 
 const getOS = require('./device/getOS')
 const getExplore = require('./device/getExplore')
+const addFavorite = require('./device/addFavorite')
+const getMobileScreenWidth = require('./device/getMobileScreenWidth')
+const isAndroidMobileDevice = require('./device/isAndroidMobileDevice')
+const isAppleMobileDevice = require('./device/isAppleMobileDevice')
+const isMobile = require('./device/isMobile')
+const isMobileUserAgent = require('./device/isMobileUserAgent')
+const setHomepage = require('./device/setHomepage')
 
 const getScrollTop = require('./dom/getScrollTop')
 const offset = require('./dom/offset')
@@ -47,52 +57,78 @@ const isSameDay = require('./time/isSameDay')
 
 const parseQueryString = require('./url/parseQueryString')
 const stringfyQueryString = require('./url/stringfyQueryString')
-
+const removeUrlPrefix = require('./url/removeUrlPrefix')
 
 module.exports = {
+    // array
     arrayEqual,
+    arrayContains,
+    arrayDescendeSort,
+    arrayIncreaseSort
 
+    // class
     addClass,
     hasClass,
     removeClass,
 
+    // cookie
     getCookie,
     removeCookie,
     setCookie,
 
+    // device
     getOS,
     getExplore,
+    addFavorite,
+    getMobileScreenWidth,
+    isAndroidMobileDevice,
+    isAppleMobileDevice,
+    isMobile,
+    isMobileUserAgent,
+    setHomepage
 
+    // dom
     getScrollTop,
     offset,
     scrollTo,
     setScrollTop,
     windowResize,
 
+    // function
     debounce,
     throttle,
 
+    // keycode
     getKeyName,
 
+    // object
     deepClone,
     isEmptyObject,
 
+    // random
     randomColor,
     randomNum,
 
+    // regexp
     isEmail,
     isIdCard,
     isPhoneNum,
     isUrl,
+    isTel
 
+    // string
     digitUppercase,
 
+    // support
     isSupportWebP,
 
+    // time
     formatPassTime,
     formatRemainTime,
     isSameDay,
 
+    // url
     parseQueryString,
     stringfyQueryString,
+    removeUrlPrefix
 }

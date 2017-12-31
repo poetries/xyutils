@@ -50,6 +50,9 @@ API文档
 **Array**
 
 - `arrayEqual` 判断两个数组是否相等 
+- `arrayContains` 检查数组中是否含有某元素 
+- `arrayDescendeSort` 将数组进行递减排序 
+- `arrayIncreaseSort` 将数组进行递增排序 
 
 **Class**
 
@@ -67,6 +70,13 @@ API文档
 
 - `getExplore` 获取浏览器类型和版本号  
 - `getOS` 获取操作系统类型
+- `addFavorite` 加入收藏夹
+- `getMobileScreenWidth` 获取移动设备屏幕宽度
+- `isAndroidMobileDevice` 判断是否安卓移动设备访问
+- `isAppleMobileDevice` 判断是否苹果移动设备访问
+- `isMobile` 判断是否移动设备
+- `isMobileUserAgent` 判断是否移动设备访问
+- `setHomepage` 设为首页
 
 **Dom**
 
@@ -121,3 +131,4 @@ API文档
 
 - `parseQueryString` `url`参数转对象
 - `stringfyQueryString` 对象序列化
+- `removeUrlPrefix` 去掉url前缀
