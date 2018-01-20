@@ -126,6 +126,20 @@ API文档
 - `formatPassTime` 格式化`${startTime}`距现在的已过时间
 - `formatRemainTime` 格式化现在距`${endTime}`的剩余时间
 - `isSameDay` 判断是否为同一天
+- `getDate` 获取最近的日期
+  - `getDate().DATE_TODAY`: 今天
+  - `getDate().DATE_YESTERDAY`: 昨天
+  - `getDate().DATE_1_WEEK_BEFORE`: 最近一周
+  - `getDate().DATE_2_WEEKS_BEFORE`: 最近两周
+  - `getDate().DATE_3_WEEKS_BEFORE`: 最近三周
+  - `getDate().DATE_1_MONTH_BEFORE`: 最近一个月
+  - `getDate().DATE_2_MONTH_BEFORE`: 最近两个月
+  - `getDate().DATE_3_MONTHS_BEFORE`: 最近三个月
+  - `getDate().DATE_1_YEAR_BEFORE`: 一年前
+  - `getDate().DATE_3_MONTHS_AFTER`: 未来三个月
+  - `getDate().DATE_1_YEAR_AFTER`: 未来一年
+  - `getDate().DATE_FIRST_DAY_OF_MONTH`: 元旦
+  - `getDate().DATE_LAST_DAY_OF_MONTH`: 本月的最后一天
 
 **Url**
 

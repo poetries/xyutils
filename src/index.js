@@ -54,6 +54,7 @@ const isSupportWebP = require('./support/isSupportWebP')
 const formatPassTime = require('./time/formatPassTime')
 const formatRemainTime = require('./time/formatRemainTime')
 const isSameDay = require('./time/isSameDay')
+const getDate = require('./time/getDate')
 
 const parseQueryString = require('./url/parseQueryString')
 const stringfyQueryString = require('./url/stringfyQueryString')
@@ -64,7 +65,7 @@ module.exports = {
     arrayEqual,
     arrayContains,
     arrayDescendeSort,
-    arrayIncreaseSort
+    arrayIncreaseSort,
 
     // class
     addClass,
@@ -85,7 +86,7 @@ module.exports = {
     isAppleMobileDevice,
     isMobile,
     isMobileUserAgent,
-    setHomepage
+    setHomepage,
 
     // dom
     getScrollTop,
@@ -114,7 +115,7 @@ module.exports = {
     isIdCard,
     isPhoneNum,
     isUrl,
-    isTel
+    isTel,
 
     // string
     digitUppercase,
@@ -126,6 +127,7 @@ module.exports = {
     formatPassTime,
     formatRemainTime,
     isSameDay,
+    getDate,
 
     // url
     parseQueryString,

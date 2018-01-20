@@ -1,6 +1,6 @@
 {
   "name": "xyutils",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "font end utils",
   "main": "min/xyutils.min.js",
   "scripts": {
@@ -39,5 +39,8 @@
     "power-assert": "^1.4.4",
     "rimraf": "^2.6.2",
     "webpack": "^3.8.1"
+  },
+  "dependencies": {
+    "moment": "^2.20.1"
   }
 }
